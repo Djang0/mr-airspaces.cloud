@@ -61,7 +61,7 @@
     } else {
       xhr.onload = function() {
         var json = JSON.parse(xhr.responseText);
-        $('#content').html(JSON.stingify(json,true));
+        $('#content').html(JSON.stringify(json,true));
 
       };
       xhr.send();

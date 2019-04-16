@@ -115,7 +115,8 @@
           <div class="resume-content">
             <h3 class="mb-0">Know when you can go higher</h3>
             <div class="subheading mb-3">Live notifications</div>
-            <p>Flying in Belgium is not easy. Considering our 28 aerodromes, we can easily claim that Belgian airspaces architecture is epic ! But sometimes LFA Golf zones are open and pilotes can go thermaling much higher. <a href="https://t.me/GOLF_BE_status_bot" target="_blank">Invite me</a> to
+            <p>Flying in Belgium is not easy. Considering our 28 aerodromes, we can easily claim that Belgian airspaces architecture is epic ! But sometimes LFA Golf zones are open and pilotes can go thermaling much higher. <a href="https://t.me/GOLF_BE_status_bot"
+                target="_blank">Invite me</a> to
               your Telegram group and I will warn you when these goldy zones are opened, even if you're in a flight.</p>
             <p><img src="img/golf_status.png" style="width:80%" /></p>
           </div>
@@ -148,8 +149,10 @@
           <div class="resume-content">
             <h3 class="mb-0">Forecast</h3>
             <div class="subheading mb-3">Chat commands</div>
-            <p>You can <a href="https://t.me/GOLF_BE_status_bot" target="_blank">Chat with me</a> directly or through a group chat, use commands and I'll ship you A.I previsions for sites flyability. I monitor 10 paragliding takeoffs on a 10 polling frequency.</p>
-            <p>I gather data from <a href="https://paraglidable.com/" target="_blank">paraglidable.com</a> and <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a>. If you request it, I'll deliver you an artificial intelligence
+            <p>You can <a href="https://t.me/GOLF_BE_status_bot" target="_blank">Chat with me</a> directly or through a group chat, use commands and I'll ship you A.I previsions for sites flyability. I monitor 10 paragliding takeoffs on a 10 polling
+              frequency.</p>
+            <p>I gather data from <a href="https://paraglidable.com/" target="_blank">paraglidable.com</a> and <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a>. If you request it, I'll deliver you an artificial
+              intelligence
               analysis for the paragliding sites that are currently flyable (wind orientation measures at request time). </p>
           </div>
           <div class="resume-date text-md-right">
@@ -285,10 +288,23 @@
           </button>
         </div>
         <div class="modal-body">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="form-group">
+              <label for="sender_email">Email</label>
+              <input type="email" class="form-control-sm" id="sender_email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control-sm" id="message" rows="3"></textarea>
+            </div>
 
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+          </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
       </div>
     </div>

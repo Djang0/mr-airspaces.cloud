@@ -288,7 +288,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <div class="form-group">
               <label for="sender_email">Email</label>
               <input type="email" class="form-control" id="sender_email" aria-describedby="emailHelp" name="sender_email" placeholder="Enter email">
@@ -298,7 +298,7 @@
               <label for="message">Message</label>
               <textarea class="form-control" id="message" rows="3" name="message"></textarea>
             </div>
-
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-primary">Submit</button>
 
           </form>

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mr-airspaces.cloud
+Token: 9a0b8046958a5e69afc0482444aee8870b5c2b0f88a1ff9ad03e7bba923ace29
